@@ -50,10 +50,21 @@
     margin-bottom: 8px;
 }
 .border-skyblue {
-    border: solid 2px #15abbf;
+    border: solid 1px #15abbf;
 }
 .bg-grey {
     background-color: #e0e0e0;
+}
+.text-bg-black {
+    background-color: #000000;
+    color: #fff;
+}
+.text-bg-black:hover {
+    background-color: #ece751;
+}
+.text-bg-skyblue {
+    background-color: #15abbf;
+    color: #fff;
 }
 /*INICIO DE LAS CARD*/
 .m-about {

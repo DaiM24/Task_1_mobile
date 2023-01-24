@@ -205,12 +205,18 @@ ol, ul {
     border-radius: 5px;
 }
 .box-news {
-    background: #15abbf77;
+    background: #15abbfcf;
     height: 160px;
 }
 .bg-image-contact {
     background-image: url(../assets/slide_hockey1.jpg);
     background-size: cover;
+}
+.bg-image-news {
+    background-image: url(../assets/slide_hockey3.jpg);
+    background-size: cover;
+    background-position-x: 55%;
+    color: #fff;
 }
 .bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
     color: #fff

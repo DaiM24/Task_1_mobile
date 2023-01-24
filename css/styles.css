@@ -208,7 +208,13 @@ ol, ul {
     background: #15abbf77;
     height: 160px;
 }
-
+.bg-image-contact {
+    background-image: url(../assets/slide_hockey1.jpg);
+    background-size: cover;
+}
+.bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
+    color: #fff
+}
 @media only screen and (min-width: 700px){
     .d-nav {
         display: none;

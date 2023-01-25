@@ -2,6 +2,9 @@
     background-image: url(../assets/image_mobile.jpg);
     background-size: cover;
 }
+/* .w-logo-home {
+
+} */
 .w-logo {
     width: 300px;
 }
@@ -19,7 +22,7 @@
     color: #15abbf;
 }
 .effect {
-    background-color: #000000;
+    background-color: #000000; 
 }
 .effect:hover{
     transform: scale(1.08,1.08);
@@ -283,10 +286,11 @@ input, select {
         background-size: cover; 
     }
     .w-logo {
-        width: 190px;
+        width: 250px;
     }
     .h-icon {
-        height: 100px;
+        height: 180px;
+        
     }
     .m-about {
         margin-bottom: 10px;

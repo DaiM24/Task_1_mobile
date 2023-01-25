@@ -205,19 +205,22 @@ ol, ul {
     display: inline;
 }
 .box-schedule-lg {
-    width: 316px;
+    width: 286px;
     height: 80px;
 }
 .box-schedule-sm {
-    width: 100px;
+    width: 90px;
     height: 100px;
 }
+/* .w-schedule {
+    width: 100%;
+} */
 /* .h-news {
     height: 250px;
     border-radius: 5px;
 } */
 .w-news {
-    width: 100%px;
+    width: 100%;
 }
 /* .box-news {
     background: #15abbfcf;

@@ -137,6 +137,22 @@
     line-clamp: 8;
     overflow: scroll;
 }
+/*Registration*/
+.btn-black {
+    background-color: #000000;
+    color: #fff;
+    height: 45px;
+}
+.btn-black:hover {
+    background-color: #ece751;
+    color: #000000;
+}
+.rounded-a{
+    border-radius: 0.4rem;
+}
+.rounded-b{
+    border-radius: 0.4rem;
+}
 /*COLOR DE LAS CARD*/
 .c1:hover .icon-about{
     background: #15abbf;
@@ -212,20 +228,13 @@ ol, ul {
     width: 90px;
     height: 100px;
 }
-/* .w-schedule {
+input, select {
+    height: 45px;
     width: 100%;
-} */
-/* .h-news {
-    height: 250px;
-    border-radius: 5px;
-} */
+}
 .w-news {
     width: 100%;
 }
-/* .box-news {
-    background: #15abbfcf;
-    height: 160px;
-} */
 .bg-image-contact {
     background-image: url(../assets/slide_hockey1.jpg);
     background-size: cover;
@@ -248,7 +257,6 @@ ol, ul {
 .bg-image-schedule {
     background-image: url(../assets/2.png);
     background-size: cover;
-    /* background-position-x: 30%; */
 }
 .bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
     color: #fff
@@ -279,7 +287,11 @@ ol, ul {
     .w-news {
         width: 90%;
     }
-}
-@media only screen and (max-width: 1200px){
-
+    .rounded-a{
+        border-radius: 0.4rem 0rem 0rem 0.4rem;
+        border-right: solid 3px #fffefe;
+    }
+    .rounded-b{
+        border-radius: 0rem 0.4rem 0.4rem 0rem;
+    }
 }

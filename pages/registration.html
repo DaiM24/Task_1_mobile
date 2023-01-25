@@ -16,105 +16,105 @@
         <h1 class="mt-md-4 mt-5">Registration Form</h1>
         <img src="../assets/Logo.png" alt="Logo MDHL" class="w-logo-mdhl">
     </header>
-    <main class="m-about mx-4">
-        <form class="row g-3 needs-validation" novalidate>
-            <div class="bg-skyblue p-3 rounded mt-4">
+    <main class="m-about mx-4 d-flex flex-column align-items-center">
+        <form class="needs-validation w-news" novalidate>
+            <div class="bg-skyblue p-3 rounded mt-4 row mb-3">
                 <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Player's First Name</label>
+                    <label for="validationCustom01" class="form-label mt-2">Player's First Name</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <label for="validationCustom02" class="form-label mt-2">Last name</label>
                     <input type="text" class="form-control" id="validationCustom02" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Street Address</label>
+                    <label for="validationCustom01" class="form-label mt-2">Street Address</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="validationCustom04" class="form-label">City</label>
+                <div class="col-md-4">
+                    <label for="validationCustom04" class="form-label mt-2">City</label>
                     <select class="form-select" id="validationCustom04" required>
                         <option selected disabled value="">Choose...</option>
-                        <option>...</option>
+                        <option>Alabama</option>
+                        <option>California</option>
+                        <option>Florida</option>
+                        <option>Kansas</option>
+                        <option>Mississippi</option>
                     </select>
                     <div class="invalid-feedback">
                         Please select a valid City.
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Zip Code</label>
+                    <label for="validationCustom01" class="form-label mt-2">Zip Code</label>
                     <input type="number" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Birth Date:</label>
+                    <label for="validationCustom02" class="form-label mt-2">Birth Date:</label>
                     <input type="date" class="form-control" id="validationCustom02" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Parent/Guardian Name</label>
+                    <label for="validationCustom02" class="form-label mt-2">Parent/Guardian Name</label>
                     <input type="text" class="form-control" id="validationCustom02" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Contact Phone</label>
+                    <label for="validationCustom01" class="form-label mt-2">Contact Phone</label>
                     <input type="number" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <label for="validationCustomUsername" class="form-label">Username</label>
+                    <label for="validationCustomUsername" class="form-label mt-2">Username</label>
                     <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" class="form-control" id="validationCustomUsername"
-                            aria-describedby="inputGroupPrepend" required>
+                        <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                            required>
                         <div class="invalid-feedback">
-                            Please choose a username.
+                            Please write an email.
                         </div>
                     </div>
                 </div>
                 <h6 class="mt-3">Gender</h6>
-                <div class="row">
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Female
-                            </label>
-                        </div>
+                <div class="col-md-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Female
+                        </label>
                     </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Male
-                            </label>
-                        </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Male
+                        </label>
                     </div>
                 </div>
             </div>
-            <div class="bg-grey rounded p-3">
+            <div class="row bg-grey rounded p-3 mb-3">
                 <h6>Grade</h6>
                 <div class="row">
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3"
                                 required>
@@ -123,7 +123,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4"
                                 required>
@@ -132,7 +132,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault5"
                                 required>
@@ -141,7 +141,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault6"
                                 required>
@@ -150,7 +150,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault7"
                                 required>
@@ -159,7 +159,7 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-6">
+                    <div class="col-lg-2 col-6">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault2"
                                 required>
@@ -171,255 +171,259 @@
                 </div>
             </div>
         
-        
-        
-            <div class="bg-grey rounded p-3">
-                <h6>Which elementary schools do you live near?</h6>
-                <div class="col-md-3">
-                    <label for="validationCustom04" class="form-label">First Closest School</label>
-                    <select class="form-select" id="validationCustom04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>AJ Katzenmaier</option>
-                        <option>Greenbay</option>
-                        <option>Howard A Yeager</option>
-                        <option>Marjorie P Hart</option>
-                        <option>North Elementary</option>
-                        <option>South Elementary</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid school.
+            <div class="row">
+                <div class="bg-grey rounded p-3 mb-3 col-md-12">
+                    <h6>Which elementary schools do you live near?</h6>
+                    <div class="col-md-12 g-2 ">
+                        <label for="validationCustom04" class="form-label">First Closest School</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>AJ Katzenmaier</option>
+                            <option>Greenbay</option>
+                            <option>Howard A Yeager</option>
+                            <option>Marjorie P Hart</option>
+                            <option>North Elementary</option>
+                            <option>South Elementary</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid school.
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="validationCustom04" class="form-label">Second Closest School</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>AJ Katzenmaier</option>
+                            <option>Greenbay</option>
+                            <option>Howard A Yeager</option>
+                            <option>Marjorie P Hart</option>
+                            <option>North Elementary</option>
+                            <option>South Elementary</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid school.
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <label for="validationCustom04" class="form-label">Second Closest School</label>
-                    <select class="form-select" id="validationCustom04" required>
-                        <option selected disabled value="">Choose...</option>
-                        <option>AJ Katzenmaier</option>
-                        <option>Greenbay</option>
-                        <option>Howard A Yeager</option>
-                        <option>Marjorie P Hart</option>
-                        <option>North Elementary</option>
-                        <option>South Elementary</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid school.
+            
+                
+            </div>
+            <div class="row">
+                <div class="bg-grey rounded-a p-3 mb-3 col-md-6">
+                    <h6>What position(s) do you normally play?</h6>
+                    <span>(check all that apply)</span>
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Forward
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Defense
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Midfield
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Goalkeepe
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-grey rounded-b p-3 mb-3 col-md-6">
+                    <h6>What position(s) do you want to play?</h6>
+                    <span>(check all that apply)</span>
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Forward
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Defense
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Midfield
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Goalkeepe
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-grey rounded-a p-3 mb-3 col-md-6">
+                    <h6>Jersey Size</h6>
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault3"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Youth Small
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    Youth Medium
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault5"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault5">
+                                    Youth Large
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault6"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault6">
+                                    Small
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault7"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault7">
+                                    Medium
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Large
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Extra-Large
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-grey rounded-b p-3 mb-3 col-md-6">
+                    <h6>Short Size</h6>
+                    <div class="row">
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault3"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Youth Small
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    Youth Medium
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault5"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault5">
+                                    Youth Large
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault6"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault6">
+                                    Small
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault7"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault7">
+                                    Medium
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Large
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
+                                    required>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Extra-Large
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        
-            <div class="bg-grey rounded p-3">
-                <h6>What position(s) do you normally play?</h6>
-                <span>(check all that apply)</span>
-                <div class="row mt-2">
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Forward
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Defense
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Midfield
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Goalkeepe
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-grey rounded p-3">
-                <h6>What position(s) do you want to play?</h6>
-                <span>(check all that apply)</span>
-                <div class="row mt-2">
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Forward
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Defense
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Midfield
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                                Goalkeepe
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-grey rounded p-3">
-                <h6>Jersey Size</h6>
-                <div class="row">
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault3"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault3">
-                                Youth Small
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault4"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault4">
-                                Youth Medium
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault5"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault5">
-                                Youth Large
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault6"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault6">
-                                Small
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault7"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault7">
-                                Medium
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Large
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault2"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Extra-Large
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-grey rounded p-3">
-                <h6>Shorts Size</h6>
-                <div class="row">
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault3"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault3">
-                                Youth Small
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault4"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault4">
-                                Youth Medium
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault5"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault5">
-                                Youth Large
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault6"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault6">
-                                Small
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault7"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault7">
-                                Medium
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault2"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Large
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault2"
-                                required>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Extra-Large
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-skyblue rounded p-3">
+            
+            <div class="row bg-skyblue rounded p-3 mb-3">
                 <h5>Permission to Play</h5>
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
                     rules of
@@ -439,16 +443,18 @@
                     acknowledge that I have read the cancellation policy and agree to its terms.
                 </p>
             </div>
-            <div class="bg-skyblue rounded py-4 px-3">
-                <div class="col-md-4">
+            <div class="row bg-skyblue rounded py-4 px-3 mb-3">
+                <div class="col-md-12">
                     <p>Entering their name below, they are hereby authorizing the form.</p>
+                </div>
+                <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Parent/Guardian</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
                         Looks good!
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">Date</label>
                     <input type="date" class="form-control" id="validationCustom01" value="" required>
                     <div class="valid-feedback">
@@ -456,31 +462,32 @@
                     </div>
                 </div>
             </div>
-            <button class="btn text-bg-black col-12 mb-2" type="submit">Submit form</button>
+            <div class="row mb-0 mb-md-3">
+                <button class="btn btn-black col-12 mb-2" type="submit">Submit form</button>
+            </div>
         </form>
     </main>
     <footer class="d-nav">
         <nav class="nav fixed-bottom bg-white border-white py-0">
             <div class="container-fluid h-nav d-flex justify-content-evenly bg-black align-items-center">
                 <div class="">
-                    <a class="navbar-brand text-center m-0" href="#">
+                    <a class="navbar-brand m-0" href="./schedule.html">
                         <i class="bi bi-calendar-week-fill fs-2 text-white"></i>
                     </a>
                 </div>
                 <div class="box-home">
-                    <a class="navbar-brand  m-0" href="../index.html">
+                    <a class="navbar-brand m-0" href="../index.html">
                         <i class="bi bi-house-fill fs-home"></i>
                     </a>
                 </div>
                 <div>
-                    <a class="navbar-brand m-0" href="#">
+                    <a class="navbar-brand m-0" href="./contact.html">
                         <i class="bi bi-envelope-fill fs-2 text-white"></i>
                     </a>
                 </div>
             </div>
         </nav>
     </footer>
-
 </body>
     <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -497,7 +504,6 @@
                         event.preventDefault()
                         event.stopPropagation()
                     }
-
                     form.classList.add('was-validated')
                 }, false)
             })

@@ -68,7 +68,7 @@
 }
 /*INICIO DE LAS CARD*/
 .m-about {
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 .container__card{
     margin: auto;
@@ -212,14 +212,17 @@ ol, ul {
     width: 100px;
     height: 100px;
 }
-.h-news {
+/* .h-news {
     height: 250px;
     border-radius: 5px;
+} */
+.w-news {
+    width: 100%px;
 }
-.box-news {
+/* .box-news {
     background: #15abbfcf;
     height: 160px;
-}
+} */
 .bg-image-contact {
     background-image: url(../assets/slide_hockey1.jpg);
     background-size: cover;
@@ -266,6 +269,9 @@ ol, ul {
     }
     .card-about{
         width: 290px;
+    }
+    .w-news {
+        width: 90%;
     }
 }
 @media only screen and (max-width: 1200px){

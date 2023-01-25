@@ -261,6 +261,19 @@ input, select {
 .bi-facebook:hover, .bi-instagram:hover, .bi-twitter:hover {
     color: #fff
 }
+/**/
+.fs-fix {
+    font-size: 40px; 
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px 10px 6px 10px;
+}
+.fs-fix:hover {
+    color: #15abbf;
+}
+.d-nav-desktop {
+    display: none;
+}
 @media only screen and (min-width: 700px){
     .d-nav {
         display: none;
@@ -293,5 +306,8 @@ input, select {
     }
     .rounded-b{
         border-radius: 0rem 0.4rem 0.4rem 0rem;
+    }
+    .d-nav-desktop {
+        display: block;
     }
 }
